@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+// Импорт типов из текущей папки
 import { Language, UserRole, Group, Student, Professor } from './types';
-import { Layout } from '@/components/Layout';
-import { Dashboard } from './views/Dashboard';
-import { Syllabuses } from './views/Syllabuses';
-import { Assignments } from './views/Assignments';
-import { Lectures } from './views/Lectures';
-import { Tests } from './views/Tests';
-import { ImageEditor } from './views/ImageEditor';
-import { Groups } from './views/Groups';
-import { Login } from './views/Login';
-import { Professors } from './views/Professors';
-import { Subjects } from './views/Subjects';
+
+// Импорты компонентов (без расширений .tsx и без лишних папок)
+import { Layout } from './Layout';
+import { Dashboard } from './Dashboard';
+import { Syllabuses } from './Syllabuses';
+import { Assignments } from './Assignments';
+import { Lectures } from './Lectures';
+import { Tests } from './Tests';
+import { ImageEditor } from './ImageEditor';
+import { Groups } from './Groups';
+import { Login } from './Login';
+import { Professors } from './Professors';
+import { Subjects } from './Subjects';
 
 const App: React.FC = () => {
   const [lang, setLang] = useState<Language>(Language.RU);
