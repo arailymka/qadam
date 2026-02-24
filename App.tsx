@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Language, UserRole, Group, Student, Professor } from './types';
-import { Layout } from './components/Layout';
+import { import Layout from "./components/Layout.tsx";
 import { Dashboard } from './views/Dashboard';
 import { Syllabuses } from './views/Syllabuses';
 import { Assignments } from './views/Assignments';
