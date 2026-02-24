@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Language, UserRole, Group, Student, Professor } from './types';
-import { Layout } from './components/Layout.tsx';
+import { Layout } from './components/layout.tsx';
 import { Dashboard } from './views/Dashboard.tsx';
 import { Syllabuses } from './views/Syllabuses.tsx';
 import { Assignments } from './views/Assignments.tsx';
