@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { Language, UserRole, Group, Student, Professor } from './types';
-import { Layout } from '@/components/Layout.tsx';
-import { Dashboard } from './views/Dashboard.tsx';
-import { Syllabuses } from './views/Syllabuses.tsx';
-import { Assignments } from './views/Assignments.tsx';
-import { Lectures } from './views/Lectures.tsx';
-import { Tests } from './views/Tests.tsx';
-import { ImageEditor } from './views/ImageEditor.tsx';
-import { Groups } from './views/Groups.tsx';
-import { Login } from './views/Login.tsx';
-import { Professors } from './views/Professors.tsx';
-import { Subjects } from './views/Subjects.tsx';
+import { Layout } from '@/components/Layout';
+import { Dashboard } from './views/Dashboard';
+import { Syllabuses } from './views/Syllabuses';
+import { Assignments } from './views/Assignments';
+import { Lectures } from './views/Lectures';
+import { Tests } from './views/Tests';
+import { ImageEditor } from './views/ImageEditor';
+import { Groups } from './views/Groups';
+import { Login } from './views/Login';
+import { Professors } from './views/Professors';
+import { Subjects } from './views/Subjects';
 
 const App: React.FC = () => {
   const [lang, setLang] = useState<Language>(Language.RU);
