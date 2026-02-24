@@ -1,0 +1,7 @@
+{
+  "name": "Qadam Digital Academic Hub",
+  "description": "A premium educational platform for KazNPU, featuring automated grading, syllabus management, AI test generation, and advanced analytics in a professional dark mode interface.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
