@@ -1,7 +1,8 @@
 
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Language, translations, UserRole } from '../types';
+// ИСПРАВЛЕНО: удалена лишняя точка в пути
+import { Language, translations, UserRole } from './types';
 
 interface LayoutProps {
   children: React.ReactNode;
