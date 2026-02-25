@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // Исправлен путь к типам (убрана лишняя точка, так как файл рядом)
-import { Language, translations, Group, Professor, UserRole, Subject, StudentSubmission } from './types';
+import { Language, translations, UserRole, ... } from './types';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { Link } from 'react-router-dom';
 
