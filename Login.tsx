@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Language, translations, UserRole, Group, Professor } from '../types';
+import { Language, translations, UserRole, ... } from './types';
 
 interface LoginProps {
   lang: Language;
